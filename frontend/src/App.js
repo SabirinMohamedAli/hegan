@@ -1,20 +1,7 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Services from './components/Services';
-import Footer from './components/Footer';
-
-function App() {
+export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Services />
-      <Footer />
+    <div className="flex items-center justify-center h-screen bg-gray-200">
+      <h1 className="text-3xl font-bold text-blue-500">Hello, Tailwind!</h1>
     </div>
   );
 }
-
-export default App;
